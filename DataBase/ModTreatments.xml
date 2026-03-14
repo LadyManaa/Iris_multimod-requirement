@@ -172,32 +172,50 @@
     </GameDBTreatment>
 
     <!--  (Iris)
-	TAGS: Hormone Therapy
+	TAGS: Cognitive Behavioral Therapy
 	DESC:  -->
 
-    <GameDBTreatment ID="TRT_IRM_HRT_DRUGS">
-        <AbbreviationLocID>TRT_IRM_HRT_DESC</AbbreviationLocID>
-        <DiscomfortLevel>Low</DiscomfortLevel>
+    <GameDBTreatment ID="TRT_IRM_CBT_DRUGS">
+        <AbbreviationLocID>TRT_IRM_CBT_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+            <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
             <RequiredDoctorQualificationList>
-                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_NURSE_SPEC_THERAP</SkillRef>
             </RequiredDoctorQualificationList>
             <RequiredEquipmentList>
                 <RequiredEquipment>
-                    <Tag>receipt</Tag>
+                    <Tag>ui_chair_office</Tag>
+                </RequiredEquipment>
+                <RequiredEquipmentList>
+                    <Tag>ui_chair_def</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
             <RequiredRoomTags>
-                <Tag>receipt</Tag>
+                <Tag>thep_office</Tag>
             </RequiredRoomTags>
-            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
         </Procedure>
-        <TreatmentType>RECEIPT</TreatmentType>
+        <TreatmentType>PROCEDURE</TreatmentType>
         <PharmacyPickup>true</PharmacyPickup>
-        <Cost>175</Cost>
+        <Cost>750</Cost>
         <DurationHours>0</DurationHours>
         <IconIndex>2021</IconIndex>
     </GameDBTreatment>
+
+
+    <!--  =============================================================  -->
+    <!--  =============            Talk Therapy           =============  -->
+    <!--  =============================================================  -->
+
+
 
 </Database>
