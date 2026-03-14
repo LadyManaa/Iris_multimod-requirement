@@ -1,0 +1,34 @@
+	<Database>
+    
+    <!-- Community Resource Pack -->
+	<!-- 
+	I recommend you use Notepad++ to view this document, use ALT+2 (With notepad++) to collaspe the document into viewing format.
+	TAGS have been set up to help the user search for related exams. Using Ctrl+F you should be able to find 
+	exams using some of these tags (general terms used to describe the exam you are after).
+	These exams have been added by their original developers to be used by any modder that wishes for these to be
+	apart of their mod. Simply add this mod as a dependency and reference them.
+	It is recommended that modders avoid using the same naming convention used by this mod SYM_CRP_*NAME* to help
+	prevent conflicts with their own mods. -->
+	<!-- Name (USERNAME)
+	TAGS: 
+	DESC:  -->
+	
+	<!-- List of symptoms categories (In order):
+	Brain and Nervous System Based Symptoms
+    -> Psychological
+    ->
+	
+	-->
+	
+	
+	<!-- List of symptoms requiring surgery :
+
+	-->
+	
+	
+	<!-- ==================================================================== -->
+	<!-- ============= Brain and Nervous System Based Symptoms  ============= -->
+	<!-- ==================================================================== -->
+
+
+    </Database>

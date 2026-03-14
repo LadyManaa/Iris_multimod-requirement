@@ -1,0 +1,203 @@
+<Database>
+    <!-- Community Resource Pack -->
+    <!-- 
+	I recommend you use Notepad++ to view this document, use ALT+2 (With notepad++) to collaspe the document into viewing format.
+	TAGS have been set up to help the user search for related exams. Using Ctrl+F you should be able to find 
+	exams using some of these tags (general terms used to describe the exam you are after).
+	These exams have been added by their original developers to be used by any modder that wishes for these to be
+	apart of their mod. Simply add this mod as a dependency and reference them.
+	It is recommended that modders avoid using the same naming convention used by this mod EXM_CRP_*NAME* to help
+	prevent conflicts with their own mods. 
+	
+	Dont forget to check the room tags, we can change these to anything required but you can just copy these if need be. E.G.
+	They will generally be tagged from the author that created them. We have added a CRP tag to every treatment that may need it.
+	<Tag>CRP_MOD</Tag>
+	
+	<RequiredRoomTags>
+		<Tag>observation</Tag>
+		<Tag>icu</Tag>	
+		<Tag>gyneco_office</Tag>	
+		<Tag>gyneco_inpatient_office</Tag>
+		<Tag>receipt</Tag>
+	</RequiredRoomTags>
+	-->
+
+    <!--  =============================================================  -->
+    <!--  ============= Oral Treatments (Tablets, pills)) =============  -->
+    <!--  =============================================================  -->
+
+    <!--  (Iris)
+	TAGS: Mood stabilisers
+	DESC: Mood stabilisers, or phase-preventive drugs, are psychotropic medicines used in the treatment of bipolar disorder to prevent further relapses. -->
+
+    <GameDBTreatment ID="TRT_IRM_MOOD_STABILIZERS_DRUGS">
+        <AbbreviationLocID>TRT_IRM_MOOD_STABILIZERS_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>120</Cost>
+        <DurationHours>0</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
+    <!--  (Iris)
+	TAGS: SSNRIs
+	DESC: Serotonin-noradrenaline reuptake inhibitors, or SSNRIs for short, are drugs that inhibit the reuptake of the neurotransmitters serotonin and noradrenaline into presynaptic neurons. SSNRIs thus increase the extracellular concentration of serotonin and noradrenaline. They have antidepressant effects and boost motivation. -->
+
+    <GameDBTreatment ID="TRT_IRM_SSNRI_DRUGS">
+        <AbbreviationLocID>TRT_IRM_SSNRI_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>75</Cost>
+        <DurationHours>0</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
+    <!--  (Iris)
+	TAGS: Benzodiazepines
+	DESC: Benzodiazepines are drugs with sedative and anxiolytic effects. -->
+
+    <GameDBTreatment ID="TRT_IRM_BENZ_DRUGS">
+        <AbbreviationLocID>TRT_IRM_BENZ_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>252</Cost>
+        <DurationHours>0</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
+    <!--  (Iris)
+	TAGS: Antipsychotics
+	DESC:  -->
+
+    <GameDBTreatment ID="TRT_IRM_ATP_DRUGS">
+        <AbbreviationLocID>TRT_IRM_ATP_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>300</Cost>
+        <DurationHours>0</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
+    <!--  (Iris)
+	TAGS: Stimulants
+	DESC:  -->
+
+    <GameDBTreatment ID="TRT_IRM_STIM_DRUGS">
+        <AbbreviationLocID>TRT_IRM_STIM_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>300</Cost>
+        <DurationHours>0</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
+    <!--  (Iris)
+	TAGS: Hormone Therapy
+	DESC:  -->
+
+    <GameDBTreatment ID="TRT_IRM_HRT_DRUGS">
+        <AbbreviationLocID>TRT_IRM_HRT_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>175</Cost>
+        <DurationHours>0</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
+</Database>
