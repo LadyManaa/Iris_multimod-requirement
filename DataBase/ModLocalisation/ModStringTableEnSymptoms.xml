@@ -41,7 +41,7 @@
 				<Text>Abulia</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_SLP_ABUILA_DESC</LocID>
+				<LocID>SYM_ABUILA_DESC</LocID>
 				<Text>Abulia is a pathological lack of volition and weakness of will. It is also characterised by an inability to make decisions.</Text>
 			</GameDBLocalizedString>
 
@@ -59,7 +59,7 @@
 				<Text>Agitation</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_SLP_AGITATION_DESC</LocID>
+				<LocID>SYM_AGITATION_DESC</LocID>
 				<Text>A state of heightened restlessness, irritability, or anxiety, often accompanied by physical movements like pacing or fidgeting. It can occur in conditions such as anxiety disorders, bipolar disorder, or schizophrenia.</Text>
 			</GameDBLocalizedString>
 
@@ -68,7 +68,7 @@
 				<Text>Akathisia</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_SLP_AKATHISIA_DESC</LocID>
+				<LocID>SYM_AKATHISIA_DESC</LocID>
 				<Text>Akathisia is the term used to describe a condition characterised by an uncontrollable urge to move. This urge is only briefly relieved by compulsively performing movements.</Text>
 			</GameDBLocalizedString>
 
@@ -77,7 +77,7 @@
 				<Text>Alexithymia</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_SLP_ALEXITHYMIA_DESC</LocID>
+				<LocID>SYM_ALEXITHYMIA_DESC</LocID>
 				<Text>Difficulty in identifying and describing one’s own emotions. It is often seen in individuals with autism spectrum disorder or PTSD.</Text>
 			</GameDBLocalizedString>
 
@@ -86,7 +86,7 @@
 				<Text>Alogia</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_SLP_ALOGIA_DESC</LocID>
+				<LocID>SYM_ALOGIA_DESC</LocID>
 				<Text>A reduction in the fluency and productivity of speech, often seen in schizophrenia. It is sometimes referred to as “poverty of speech.”</Text>
 			</GameDBLocalizedString>
 
@@ -113,7 +113,7 @@
 				<Text>Anxiety</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_SLP_ANXIETY_DESC</LocID>
+				<LocID>SYM_ANXIETY_DESC</LocID>
 				<Text>A feeling of excessive worry, fear, or unease, often accompanied by physical symptoms like sweating, trembling, or a racing heart. It is a hallmark of anxiety disorders but can also occur in other psychiatric conditions.</Text>
 			</GameDBLocalizedString>
 
@@ -122,7 +122,7 @@
 				<Text>Apathy</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_SLP_APATHY_DESC</LocID>
+				<LocID>SYM_APATHY_DESC</LocID>
 				<Text>A lack of motivation, interest, or emotional responsiveness. It is often seen in depression, schizophrenia, or neurodegenerative disorders like Alzheimer’s disease.</Text>
 			</GameDBLocalizedString>
 
@@ -131,7 +131,7 @@
 				<Text>Auditory Hallucinations</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_SLP_AUDITORY_HALLUCINATIONS_DESC</LocID>
+				<LocID>SYM_AUDITORY_HALLUCINATIONS_DESC</LocID>
 				<Text>Hearing voices or sounds that are not present in the environment. This is a common symptom of psychotic disorders like schizophrenia.</Text>
 			</GameDBLocalizedString>
 
@@ -140,7 +140,7 @@
 				<Text>Avoidance Behavior</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_SLP_AVOIDANCE_BEHAVOIR_DESC</LocID>
+				<LocID>SYM_AVOIDANCE_BEHAVOIR_DESC</LocID>
 				<Text>Deliberately avoiding situations, places, or people that trigger anxiety or distress. This is a key feature of anxiety disorders, particularly phobias and PTSD.</Text>
 			</GameDBLocalizedString>
 
@@ -154,66 +154,66 @@
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM</LocID>
-				<Text>NAME</Text>
+				<LocID>SYM_PSYC_BLUNTED_AFFECT</LocID>
+				<Text>Blunted Affect</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
-				<Text>Description</Text>
-			</GameDBLocalizedString>
-
-			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM</LocID>
-				<Text>NAME</Text>
-			</GameDBLocalizedString>
-			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
-				<Text>Description</Text>
+				<LocID>SYM_PSYC_BLUNTED_AFFECT_DESC</LocID>
+				<Text>A significant reduction in the intensity of emotional expression. Individuals may appear emotionally flat or unresponsive, often seen in schizophrenia or severe depression.</Text>
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM</LocID>
-				<Text>NAME</Text>
+				<LocID>SYM_PSYC_BRUXISM</LocID>
+				<Text>Bruxism</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
-				<Text>Description</Text>
-			</GameDBLocalizedString>
-
-			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM</LocID>
-				<Text>NAME</Text>
-			</GameDBLocalizedString>
-			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
-				<Text>Description</Text>
+				<LocID>SYM_PSYC_BRUXISM_DESC</LocID>
+				<Text> Grinding or clenching of teeth, often during sleep. It can be associated with anxiety, stress, or certain medications.</Text>
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM</LocID>
-				<Text>NAME</Text>
+				<LocID>SYM_PSYC_BULIMIA_NERVOSA</LocID>
+				<Text>Bulimia Nervosa</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
-				<Text>Description</Text>
-			</GameDBLocalizedString>
-
-			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM</LocID>
-				<Text>NAME</Text>
-			</GameDBLocalizedString>
-			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
-				<Text>Description</Text>
+				<LocID>SYM_PSYC_BULIMIA_NERVOSA_DESC</LocID>
+				<Text>An eating disorder characterized by episodes of binge eating followed by compensatory behaviors like vomiting or excessive exercise. It is often accompanied by body image disturbances.</Text>
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM</LocID>
-				<Text>NAME</Text>
+				<LocID>SYM_PSYC_BURNOUT</LocID>
+				<Text>Burnout</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
-				<Text>Description</Text>
+				<LocID>SYM_BURNOUT_DESC</LocID>
+				<Text>A state of emotional, physical, and mental exhaustion caused by prolonged stress. It is not a formal psychiatric diagnosis but is associated with anxiety and depression.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_CATATONIA</LocID>
+				<Text>Catatonia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_CATATONIA_DESC</LocID>
+				<Text>A state of unresponsiveness or immobility, often accompanied by rigidity, mutism, or repetitive movements. It can occur in schizophrenia, mood disorders, or medical conditions.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_COGNITIVE_IMPAIRMENT</LocID>
+				<Text>Cognitive Impairment</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_COGNITIVE_IMPAIRMENT_DESC</LocID>
+				<Text>Difficulties with memory, attention, or problem-solving. It can occur in conditions like dementia, traumatic brain injury, or depression.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_CYCLOTHYMIA</LocID>
+				<Text>Cyclothymia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_CYCLOTHYMIA_DESC</LocID>
+				<Text>A mood disorder characterized by chronic fluctuations between mild depressive and hypomanic symptoms, though not as severe as bipolar disorder.</Text>
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
