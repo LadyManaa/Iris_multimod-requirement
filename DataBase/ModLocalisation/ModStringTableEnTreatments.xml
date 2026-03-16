@@ -1,0 +1,19 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_GYNECOLOGIE_TREATMENTS">
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+        <Contributors>
+            <Name/>
+        </Contributors>
+        <LocalizedStrings>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_MOOD_STABILIZERS_DRUGS</LocID>
+                <Text>Mood Stabilizers</Text>
+            </GameDBLocalizedString>
+        </LocalizedStrings>
+        <GameDBLocalizedString>
+            <LocID>TRT_IRM_HRT_DRUGS</LocID>
+            <Text>Hormone Replacment Therapy</Text>
+        </GameDBLocalizedString>
+    </GameDBStringTable>
+</Database>

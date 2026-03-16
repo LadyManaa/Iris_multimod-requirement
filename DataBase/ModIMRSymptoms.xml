@@ -1,6 +1,6 @@
-	<Database>
-    
-    <!-- Community Resource Pack -->
+<Database>
+
+	<!-- Community Resource Pack -->
 	<!-- 
 	I recommend you use Notepad++ to view this document, use ALT+2 (With notepad++) to collaspe the document into viewing format.
 	TAGS have been set up to help the user search for related exams. Using Ctrl+F you should be able to find 
@@ -12,23 +12,80 @@
 	<!-- Name (USERNAME)
 	TAGS: 
 	DESC:  -->
-	
+
 	<!-- List of symptoms categories (In order):
 	Brain and Nervous System Based Symptoms
     -> Psychological
     ->
 	
 	-->
-	
-	
+
+
 	<!-- List of symptoms requiring surgery :
 
 	-->
-	
-	
+
+
 	<!-- ==================================================================== -->
 	<!-- ============= Brain and Nervous System Based Symptoms  ============= -->
 	<!-- ==================================================================== -->
 
 
-    </Database>
+
+	<!--PLACEHOLDER TEST-->
+	<GameDBSymptom ID="SYM_PSYC_PLACE">
+		<DescriptionLocID>SYM_PSYC_PLACE_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+		</Treatments>
+		<IsMainSymptom>true</IsMainSymptom>
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>3</IconIndex>
+	</GameDBSymptom>
+
+
+
+	<!--[[Gender Dysphoria]]-->
+	<GameDBSymptom ID="SYM_PSYC_GENDER_DYSPHORIA">
+		<DescriptionLocID>SYM_SLP_GENDER_DYSPHORIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_HRT_DRUGS</TreatmentRef>
+		</Treatments>
+		<IsMainSymptom>false</IsMainSymptom>
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Flat Affect]]-->
+	<GameDBSymptom ID="SYM_PSYC_FLAT_AFFECT">
+		<DescriptionLocID>SYM_SLP_FLAT_AFFECT_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+		</Treatments>
+		<IsMainSymptom>false</IsMainSymptom>
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+</Database>

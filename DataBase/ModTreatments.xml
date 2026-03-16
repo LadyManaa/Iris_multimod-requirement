@@ -171,6 +171,31 @@
         <IconIndex>2021</IconIndex>
     </GameDBTreatment>
 
+    <GameDBTreatment ID="TRT_IRM_HRT_DRUGS">
+        <AbbreviationLocID>TRT_IRM_HRT_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>300</Cost>
+        <DurationHours>0</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
     <!--  =============================================================  -->
     <!--  =============            Talk Therapy           =============  -->
     <!--  =============================================================  -->
@@ -179,13 +204,13 @@
 	TAGS: Cognitive Behavioral Therapy
 	DESC:  -->
 
-    <GameDBTreatment ID="TRT_IRM_CBT_DRUGS">
+    <GameDBTreatment ID="TRT_IRM_CBT">
         <AbbreviationLocID>TRT_IRM_CBT_DESC</AbbreviationLocID>
         <DiscomfortLevel>Medium</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
             <RequiredSkillsToPrescribe>
-            <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
             </RequiredSkillsToPrescribe>
             <RequiredDoctorQualificationList>
                 <SkillRef>SKILL_NURSE_SPEC_THERAP</SkillRef>
@@ -194,7 +219,7 @@
                 <RequiredEquipment>
                     <Tag>ui_chair_office</Tag>
                 </RequiredEquipment>
-                <RequiredEquipmentList>
+                <RequiredEquipment>
                     <Tag>ui_chair_def</Tag>
                 </RequiredEquipment>
             </RequiredEquipmentList>
