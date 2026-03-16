@@ -1,0 +1,238 @@
+<Database>
+	<!--
+
+		Template:
+
+		<GameDBLocalizedString>
+			<LocID>SYM_PSYC_SYMPTOM</LocID>
+			<Text>NAME</Text>
+		</GameDBLocalizedString>
+		<GameDBLocalizedString>
+			<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+			<Text>Description</Text>
+		</GameDBLocalizedString>
+
+-->
+
+
+
+
+
+
+	<GameDBStringTable ID="LOC_EN_ADDON_IRM_SYMPTOMS">
+		<LanguageCode>en</LanguageCode>
+		<LanguageNameLocalized>English</LanguageNameLocalized>
+		<Contributors>
+			<Name>Iris</Name>
+		</Contributors>
+
+		<LocalizedStrings>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_PLACE</LocID>
+				<Text>!!!Dummy Symptom pls ignore!!!</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_PLACE_DESC</LocID>
+				<Text>This Symptom only exist for the mod to work the way I want.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_ABUILA</LocID>
+				<Text>Abulia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_SLP_ABUILA_DESC</LocID>
+				<Text>Abulia is a pathological lack of volition and weakness of will. It is also characterised by an inability to make decisions.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_AFFECTIVE_INSTABILITY</LocID>
+				<Text>Affective Instability</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_AFFECTIVE_INSTABILITY_DESC</LocID>
+				<Text>A movement disorder characterized by an intense feeling of inner restlessness and an inability to sit still. It is often a side effect of antipsychotic medications.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_AGITATION</LocID>
+				<Text>Agitation</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_SLP_AGITATION_DESC</LocID>
+				<Text>A state of heightened restlessness, irritability, or anxiety, often accompanied by physical movements like pacing or fidgeting. It can occur in conditions such as anxiety disorders, bipolar disorder, or schizophrenia.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_AKATHISIA</LocID>
+				<Text>Akathisia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_SLP_AKATHISIA_DESC</LocID>
+				<Text>Akathisia is the term used to describe a condition characterised by an uncontrollable urge to move. This urge is only briefly relieved by compulsively performing movements.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_ALEXITHYMIA</LocID>
+				<Text>Alexithymia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_SLP_ALEXITHYMIA_DESC</LocID>
+				<Text>Difficulty in identifying and describing one’s own emotions. It is often seen in individuals with autism spectrum disorder or PTSD.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_ALOGIA</LocID>
+				<Text>Alogia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_SLP_ALOGIA_DESC</LocID>
+				<Text>A reduction in the fluency and productivity of speech, often seen in schizophrenia. It is sometimes referred to as “poverty of speech.”</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_AMNESIA</LocID>
+				<Text>Amnesia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_AMNESIA_DESC</LocID>
+				<Text>Amnesia is a form of memory disorder characterised by an impairment of memory in terms of time and/or content.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_ANHEDONIA</LocID>
+				<Text>Anhedonia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_ANHEDONIA_DESC</LocID>
+				<Text>The inability to experience pleasure from activities that are normally enjoyable. It is a common symptom of depression and other mood disorders.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_ANXIETY</LocID>
+				<Text>Anxiety</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_SLP_ANXIETY_DESC</LocID>
+				<Text>A feeling of excessive worry, fear, or unease, often accompanied by physical symptoms like sweating, trembling, or a racing heart. It is a hallmark of anxiety disorders but can also occur in other psychiatric conditions.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_APATHY</LocID>
+				<Text>Apathy</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_SLP_APATHY_DESC</LocID>
+				<Text>A lack of motivation, interest, or emotional responsiveness. It is often seen in depression, schizophrenia, or neurodegenerative disorders like Alzheimer’s disease.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_AUDITORY_HALLUCINATIONS</LocID>
+				<Text>Auditory Hallucinations</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_SLP_AUDITORY_HALLUCINATIONS_DESC</LocID>
+				<Text>Hearing voices or sounds that are not present in the environment. This is a common symptom of psychotic disorders like schizophrenia.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_AVOIDANCE_BEHAVOIR</LocID>
+				<Text>Avoidance Behavior</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_SLP_AVOIDANCE_BEHAVOIR_DESC</LocID>
+				<Text>Deliberately avoiding situations, places, or people that trigger anxiety or distress. This is a key feature of anxiety disorders, particularly phobias and PTSD.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

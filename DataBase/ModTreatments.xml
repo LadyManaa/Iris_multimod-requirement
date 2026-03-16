@@ -171,8 +171,12 @@
         <IconIndex>2021</IconIndex>
     </GameDBTreatment>
 
-    <GameDBTreatment ID="TRT_IRM_HRT_DRUGS">
-        <AbbreviationLocID>TRT_IRM_HRT_DESC</AbbreviationLocID>
+    <!--  (Iris)
+	TAGS: Gender-affirming hormone therapy
+	DESC:  -->
+
+    <GameDBTreatment ID="TRT_IRM_GAHT_DRUGS">
+        <AbbreviationLocID>TRT_IRM_GAHT_DESC</AbbreviationLocID>
         <DiscomfortLevel>Low</DiscomfortLevel>
         <Procedure>
             <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
@@ -196,13 +200,43 @@
         <IconIndex>2021</IconIndex>
     </GameDBTreatment>
 
+    <!--  (Iris)
+	TAGS: Methylphenidate
+	DESC: Methylphenidate, or MPH for short, is a stimulant belonging to the group of indirect sympathomimetics. Methylphenidate hydrochloride is the main active ingredient in the medicine Ritalin®. -->
+
+    <GameDBTreatment ID="TRT_IRM_MPH_DRUGS">
+        <AbbreviationLocID>TRT_IRM_MPH_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <Cost>300</Cost>
+        <DurationHours>0</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
+
     <!--  =============================================================  -->
     <!--  =============            Talk Therapy           =============  -->
     <!--  =============================================================  -->
 
     <!--  (Iris)
 	TAGS: Cognitive Behavioral Therapy
-	DESC:  -->
+	DESC: Cognitive behavioural therapy, or CBT for short, is a form of behavioural therapy. This form of therapy focuses on the patient’s perception and changes in cognition.-->
 
     <GameDBTreatment ID="TRT_IRM_CBT">
         <AbbreviationLocID>TRT_IRM_CBT_DESC</AbbreviationLocID>
@@ -235,13 +269,137 @@
         </Procedure>
         <TreatmentType>PROCEDURE</TreatmentType>
         <PharmacyPickup>true</PharmacyPickup>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
         <Cost>750</Cost>
-        <DurationHours>0</DurationHours>
+        <DurationHours>1</DurationHours>
         <IconIndex>2021</IconIndex>
     </GameDBTreatment>
 
+    <!--  (Iris)
+	TAGS: Dialectical Behavior Therapy
+	DESC: Dialectical behaviour therapy (DBT) is a form of cognitive behavioural therapy that is specifically designed to treat borderline personality disorder and combines a range of therapeutic methods. It is based on a dialectical approach. This means that conflicting issues or perspectives are identified and acknowledged, with the aim of striking a balance between them.-->
 
+    <GameDBTreatment ID="TRT_IRM_DBT">
+        <AbbreviationLocID>TRT_IRM_DBT_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_THERAP</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>ui_chair_office</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>ui_chair_def</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>thep_office</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
+        </Procedure>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <Cost>750</Cost>
+        <DurationHours>1</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
 
+    <!--  (Iris)
+	TAGS: Exposure Therapy
+	DESC: Exposure therapy is a technique in behavior therapy to treat anxiety disorders. Exposure therapy involves exposing the patient to the anxiety source or its context (without the intention to cause any danger).-->
 
+    <GameDBTreatment ID="TRT_IRM_ET">
+        <AbbreviationLocID>TRT_IRM_ET_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_THERAP</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>ui_chair_office</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>ui_chair_def</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>thep_office</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
+        </Procedure>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <Cost>750</Cost>
+        <DurationHours>1</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
+    <!--  (Iris)
+	TAGS: Occupational Therapy
+	DESC: Occupational therapy (OT), also known as ergotherapy in Europe, is a healthcare profession that helps people take part in the everyday activities, or occupations, that are important for daily life. These occupations include self-care tasks, work, school, social participation, and leisure activities.-->
+
+    <GameDBTreatment ID="TRT_IRM_OT">
+        <AbbreviationLocID>TRT_IRM_OT_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_NURSE_SPEC_THERAP</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>ui_chair_office</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>ui_chair_def</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>thep_office</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentProcedure</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
+        </Procedure>
+        <TreatmentType>PROCEDURE</TreatmentType>
+        <PharmacyPickup>true</PharmacyPickup>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <Cost>750</Cost>
+        <DurationHours>1</DurationHours>
+        <IconIndex>2021</IconIndex>
+    </GameDBTreatment>
+
+    <!--  ===========================================================  -->
+    <!--  ============= Advice or Monitoring Treatments =============  -->
+    <!--  ===========================================================  -->
 
 </Database>

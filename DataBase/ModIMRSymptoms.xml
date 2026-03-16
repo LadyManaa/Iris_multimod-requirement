@@ -26,33 +26,270 @@
 	-->
 
 
-	<!-- ==================================================================== -->
-	<!-- ============= Brain and Nervous System Based Symptoms  ============= -->
-	<!-- ==================================================================== -->
+	<!-- ============================================ -->
+	<!-- ============= Symptoms A to Z  ============= -->
+	<!-- ============================================ -->
 
+<!--  (Iris)
+	TAGS: !!!Dummy Symptom pls ignore!!!
+	DESC: This Symptom only exist for the mod to work the way I want. -->
 
-
-	<!--PLACEHOLDER TEST-->
+	<!--PLACEHOLDER-->
 	<GameDBSymptom ID="SYM_PSYC_PLACE">
 		<DescriptionLocID>SYM_PSYC_PLACE_DESC</DescriptionLocID>
 		<DiscomfortLevel>None</DiscomfortLevel>
 		<PatientComplains>true</PatientComplains>
-		<Hazard>Medium</Hazard>
+		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Examinations>
 			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_SSNRI_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_ATP_DRUGS</TreatmentRef>
 		</Treatments>
-		<IsMainSymptom>true</IsMainSymptom>
 		<ShameLevel>0</ShameLevel>
 		<IconIndex>3</IconIndex>
 	</GameDBSymptom>
 
 
+	<!--[[Abulia]]  by Iris
+	DESC: Abulia is a pathological lack of volition and weakness of will. It is also characterised by an inability to make decisions. -->
 
-	<!--[[Gender Dysphoria]]-->
+	<GameDBSymptom ID="SYM_PSYC_ABUILA">
+		<DescriptionLocID>SYM_SLP_ABUILA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Affective Instability]] by Iris
+	DESC: A movement disorder characterized by an intense feeling of inner restlessness and an inability to sit still. It is often a side effect of antipsychotic medications. -->
+
+	<GameDBSymptom ID="SYM_AFFECTIVE_INSTABILITY">
+		<DescriptionLocID>SYM_SLP_AFFECTIVE_INSTABILITY_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Agitation]] by Iris
+	DESC: A state of heightened restlessness, irritability, or anxiety, often accompanied by physical movements like pacing or fidgeting. It can occur in conditions such as anxiety disorders, bipolar disorder, or schizophrenia. -->
+	
+	<GameDBSymptom ID="SYM_PSYC_AGITATION">
+		<DescriptionLocID>SYM_SLP_AGITATION_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Akathisia]] by Iris
+	DESC: Akathisia is the term used to describe a condition characterised by an uncontrollable urge to move. This urge is only briefly relieved by compulsively performing movements. -->
+	
+	<GameDBSymptom ID="SYM_PSYC_AKATHISIA">
+		<DescriptionLocID>SYM_SLP_AKATHISIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Alexithymia]]
+	DESC: Difficulty in identifying and describing one’s own emotions. It is often seen in individuals with autism spectrum disorder or PTSD.-->
+	<GameDBSymptom ID="SYM_PSYC_ALEXITHYMIA">
+		<DescriptionLocID>SYM_SLP_ALEXITHYMIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Alogia]]
+	DESC: A reduction in the fluency and productivity of speech, often seen in schizophrenia. It is sometimes referred to as “poverty of speech.”-->
+	<GameDBSymptom ID="SYM_PSYC_ALOGIA">
+		<DescriptionLocID>SYM_SLP_ALOGIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>False</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Amnesia]]
+	DESC: Amnesia is a form of memory disorder characterised by an impairment of memory in terms of time and/or content.-->
+	<GameDBSymptom ID="SYM_PSYC_AMNESIA">
+		<DescriptionLocID>SYM_SLP_AMNESIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Anhedonia]]
+	DESC: The inability to experience pleasure from activities that are normally enjoyable. It is a common symptom of depression and other mood disorders.-->
+	<GameDBSymptom ID="SYM_PSYC_ANHEDONIA">
+		<DescriptionLocID>SYM_PSYC_ANHEDONIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>True</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Anxiety]]
+	DESC: A feeling of excessive worry, fear, or unease, often accompanied by physical symptoms like sweating, trembling, or a racing heart. It is a hallmark of anxiety disorders but can also occur in other psychiatric conditions. -->
+	<GameDBSymptom ID="SYM_PSYC_ANXIETY">
+		<DescriptionLocID>SYM_SLP_ANXIETY_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Apathy]]
+	DESC: A lack of motivation, interest, or emotional responsiveness. It is often seen in depression, schizophrenia, or neurodegenerative disorders like Alzheimer’s disease. -->
+	<GameDBSymptom ID="SYM_PSYC_APATHY">
+		<DescriptionLocID>SYM_SLP_APATHY_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Auditory Hallucinations]]
+	DESC: Hearing voices or sounds that are not present in the environment. This is a common symptom of psychotic disorders like schizophrenia. -->
+	<GameDBSymptom ID="SYM_PSYC_AUDITORY_HALLUCINATIONS">
+		<DescriptionLocID>SYM_SLP_AUDITORY_HALLUCINATIONS_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+
+	<!--[[Avoidance Behavior]]
+	DESC:  Deliberately avoiding situations, places, or people that trigger anxiety or distress. This is a key feature of anxiety disorders, particularly phobias and PTSD.-->
+	<GameDBSymptom ID="SYM_PSYC_AVOIDANCE_BEHAVOIR">
+		<DescriptionLocID>SYM_SLP_AVOIDANCE_BEHAVOIR_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Gender Dysphoria]]
+	DESC: -->
 	<GameDBSymptom ID="SYM_PSYC_GENDER_DYSPHORIA">
 		<DescriptionLocID>SYM_SLP_GENDER_DYSPHORIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
@@ -63,9 +300,9 @@
 			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_HRT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
 		</Treatments>
-		<IsMainSymptom>false</IsMainSymptom>
+
 		<ShameLevel>0</ShameLevel>
 		<IconIndex>2</IconIndex>
 	</GameDBSymptom>
@@ -75,6 +312,7 @@
 		<DescriptionLocID>SYM_SLP_FLAT_AFFECT_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Medium</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
@@ -83,7 +321,7 @@
 		<Treatments>
 			<TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
 		</Treatments>
-		<IsMainSymptom>false</IsMainSymptom>
+
 		<ShameLevel>0</ShameLevel>
 		<IconIndex>1</IconIndex>
 	</GameDBSymptom>

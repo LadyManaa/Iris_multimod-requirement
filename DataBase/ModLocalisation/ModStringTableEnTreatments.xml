@@ -1,19 +1,129 @@
 <Database>
-    <GameDBStringTable ID="LOC_EN_ADDON_GYNECOLOGIE_TREATMENTS">
+
+    <!--
+
+		Template:
+
+		<GameDBLocalizedString>
+			<LocID>TRT_PSYC_SYMPTOM</LocID>
+			<Text>NAME</Text>
+		</GameDBLocalizedString>
+		<GameDBLocalizedString>
+			<LocID>TRT_PSYC_SYMPTOM_DESC</LocID>
+			<Text>Description</Text>
+		</GameDBLocalizedString>
+
+-->
+
+    <GameDBStringTable ID="LOC_EN_ADDON_IRM_TREATMENTS">
         <LanguageCode>en</LanguageCode>
         <LanguageNameLocalized>English</LanguageNameLocalized>
         <Contributors>
-            <Name/>
+            <Name>Iris</Name>
         </Contributors>
         <LocalizedStrings>
+
             <GameDBLocalizedString>
                 <LocID>TRT_IRM_MOOD_STABILIZERS_DRUGS</LocID>
                 <Text>Mood Stabilizers</Text>
             </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_MOOD_STABILIZERS_DESC</LocID>
+                <Text>Mood stabilisers, or phase-preventive drugs, are psychotropic medicines used in the treatment of bipolar disorder to prevent further relapses.</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_SSNRI_DRUGS</LocID>
+                <Text>Serotonin-norepinephrine reuptake inhibitors</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_SSNRI_DESC</LocID>
+                <Text>Serotonin-noradrenaline reuptake inhibitors, or SSNRIs for short, are drugs that inhibit the reuptake of the neurotransmitters serotonin and noradrenaline into presynaptic neurons. SSNRIs thus increase the extracellular concentration of serotonin and noradrenaline. They have antidepressant effects and boost motivation.</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_BENZ_DRUGS</LocID>
+                <Text>Benzodiazepines</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_BENZ_DESC</LocID>
+                <Text>Benzodiazepines are drugs with sedative and anxiolytic effects</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_ATP_DRUGS</LocID>
+                <Text>Antipsychotics</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_ATP_DESC</LocID>
+                <Text>Antipsychotics, previously known as neuroleptics and major tranquilizers, are a class of psychotropic medication primarily used to manage psychosis</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_STIM_DRUGS</LocID>
+                <Text>Stimulants</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_STIM_DESC</LocID>
+                <Text>Stimulants (also known as central nervous system stimulants, or psychostimulants, or colloquially as uppers) are a class of psychoactive drugs that increase alertness.</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_GAHT_DRUGS</LocID>
+                <Text>Gender-affirming hormone therapy</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_GAHT_DESC</LocID>
+                <Text>Gender-affirming hormone therapy (GAHT), also known as hormone replacement therapy (HRT) or transgender hormone therapy, is a form of hormone therapy in which sex hormones and other hormonal medications are administered to transgender or gender nonconforming individuals for the purpose of more closely aligning their secondary sexual characteristics with their gender identity. This form of hormone therapy is given as one of two types, based on whether the goal of treatment is masculinization or feminization</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_MPH_DRUGS</LocID>
+                <Text>Methylphenidate</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_MPH_DESC</LocID>
+                <Text>Methylphenidate, or MPH for short, is a stimulant belonging to the group of indirect sympathomimetics. Methylphenidate hydrochloride is the main active ingredient in the medicine Ritalin®.</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_CBT</LocID>
+                <Text>Cognitive Behavioral Therapy</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_CBT_DESC</LocID>
+                <Text>Cognitive behavioural therapy, or CBT for short, is a form of behavioural therapy. This form of therapy focuses on the patient’s perception and changes in cognition.</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_DBT</LocID>
+                <Text>Dialectical Behavior Therapy</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_DBT_DESC</LocID>
+                <Text>Dialectical behaviour therapy (DBT) is a form of cognitive behavioural therapy that is specifically designed to treat borderline personality disorder and combines a range of therapeutic methods. It is based on a dialectical approach. This means that conflicting issues or perspectives are identified and acknowledged, with the aim of striking a balance between them.</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_ET</LocID>
+                <Text>Exposure Therapy</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_ET_DESC</LocID>
+                <Text>Exposure therapy is a technique in behavior therapy to treat anxiety disorders. Exposure therapy involves exposing the patient to the anxiety source or its context (without the intention to cause any danger).</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_OT</LocID>
+                <Text>Occupational Therapy</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TRT_IRM_OT_DESC</LocID>
+                <Text>Occupational therapy (OT), also known as ergotherapy in Europe, is a healthcare profession that helps people take part in the everyday activities, or occupations, that are important for daily life. These occupations include self-care tasks, work, school, social participation, and leisure activities.</Text>
+            </GameDBLocalizedString>
+
         </LocalizedStrings>
-        <GameDBLocalizedString>
-            <LocID>TRT_IRM_HRT_DRUGS</LocID>
-            <Text>Hormone Replacment Therapy</Text>
-        </GameDBLocalizedString>
+
+
     </GameDBStringTable>
 </Database>
