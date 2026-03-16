@@ -30,7 +30,7 @@
 	<!-- ============= Symptoms A to Z  ============= -->
 	<!-- ============================================ -->
 
-<!--  (Iris)
+	<!--  (Iris)
 	TAGS: !!!Dummy Symptom pls ignore!!!
 	DESC: This Symptom only exist for the mod to work the way I want. -->
 
@@ -97,7 +97,7 @@
 
 	<!--[[Agitation]] by Iris
 	DESC: A state of heightened restlessness, irritability, or anxiety, often accompanied by physical movements like pacing or fidgeting. It can occur in conditions such as anxiety disorders, bipolar disorder, or schizophrenia. -->
-	
+
 	<GameDBSymptom ID="SYM_PSYC_AGITATION">
 		<DescriptionLocID>SYM_AGITATION_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
@@ -117,7 +117,7 @@
 
 	<!--[[Akathisia]] by Iris
 	DESC: Akathisia is the term used to describe a condition characterised by an uncontrollable urge to move. This urge is only briefly relieved by compulsively performing movements. -->
-	
+
 	<GameDBSymptom ID="SYM_PSYC_AKATHISIA">
 		<DescriptionLocID>SYM_AKATHISIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
@@ -230,7 +230,7 @@
 		<IconIndex>2</IconIndex>
 	</GameDBSymptom>
 
-		<!--[[Apathy]]
+	<!--[[Apathy]]
 	DESC: A lack of motivation, interest, or emotional responsiveness. It is often seen in depression, schizophrenia, or neurodegenerative disorders like Alzheimer’s disease. -->
 	<GameDBSymptom ID="SYM_PSYC_APATHY">
 		<DescriptionLocID>SYM_APATHY_DESC</DescriptionLocID>
@@ -249,7 +249,7 @@
 		<IconIndex>2</IconIndex>
 	</GameDBSymptom>
 
-		<!--[[Auditory Hallucinations]]
+	<!--[[Auditory Hallucinations]]
 	DESC: Hearing voices or sounds that are not present in the environment. This is a common symptom of psychotic disorders like schizophrenia. -->
 	<GameDBSymptom ID="SYM_PSYC_AUDITORY_HALLUCINATIONS">
 		<DescriptionLocID>SYM_AUDITORY_HALLUCINATIONS_DESC</DescriptionLocID>
@@ -288,7 +288,7 @@
 		<IconIndex>2</IconIndex>
 	</GameDBSymptom>
 
-		<!--[[Avolition]]
+	<!--[[Avolition]]
 	DESC: A lack of motivation or inability to initiate and persist in goal-directed activities. It is commonly associated with schizophrenia and severe depression.-->
 	<GameDBSymptom ID="SYM_PSYC_AVOLITION">
 		<DescriptionLocID>SYM_PSYC_AVOLITION_DESC</DescriptionLocID>
@@ -307,7 +307,7 @@
 		<IconIndex>2</IconIndex>
 	</GameDBSymptom>
 
-		<!--[[Blunted Affect]]
+	<!--[[Blunted Affect]]
 	DESC: A significant reduction in the intensity of emotional expression. Individuals may appear emotionally flat or unresponsive, often seen in schizophrenia or severe depression. -->
 	<GameDBSymptom ID="SYM_PSYC_BLUNTED_AFFECT">
 		<DescriptionLocID>SYM_PSYC_BLUNTED_AFFECT_DESC</DescriptionLocID>
@@ -326,7 +326,7 @@
 		<IconIndex>2</IconIndex>
 	</GameDBSymptom>
 
-		<!--[[Bruxism]]
+	<!--[[Bruxism]]
 	DESC: Grinding or clenching of teeth, often during sleep. It can be associated with anxiety, stress, or certain medications.-->
 	<GameDBSymptom ID="SYM_PSYC_BRUXISM">
 		<DescriptionLocID>SYM_PSYC_BRUXISM_DESC</DescriptionLocID>
@@ -402,7 +402,7 @@
 		<IconIndex>2</IconIndex>
 	</GameDBSymptom>
 
-		<!--[[Cognitive Impairment]]
+	<!--[[Cognitive Impairment]]
 	DESC: Difficulties with memory, attention, or problem-solving. It can occur in conditions like dementia, traumatic brain injury, or depression.-->
 	<GameDBSymptom ID="SYM_PSYC_COGNITIVE_IMPAIRMENT">
 		<DescriptionLocID>SYM_PSYC_COGNITIVE_IMPAIRMENT_DESC</DescriptionLocID>
@@ -425,6 +425,158 @@
 	DESC: A mood disorder characterized by chronic fluctuations between mild depressive and hypomanic symptoms, though not as severe as bipolar disorder.-->
 	<GameDBSymptom ID="SYM_PSYC_CYCLOTHYMIA">
 		<DescriptionLocID>SYM_PSYC_CYCLOTHYMIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Delusions]]
+	DESC: Fixed, false beliefs that are resistant to reasoning or contradictory evidence. Common types include paranoid delusions (e.g., believing one is being persecuted) or grandiose delusions (e.g., believing one has special powers). -->
+	<GameDBSymptom ID="SYM_PSYC_DELULU">
+		<DescriptionLocID>SYM_DELULU_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Depersonalization]]
+	DESC: A feeling of detachment from oneself, as if observing one’s actions from outside the body. It is a symptom of depersonalization-derealization disorder.-->
+	<GameDBSymptom ID="SYM_PSYC_DEPERSONALIZATION">
+		<DescriptionLocID>SYM_PSYC_DEPERSONALIZATION_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Depressed Mood]]
+	DESC: Persistent feelings of sadness, hopelessness, or emptiness, a core symptom of major depressive disorder.-->
+	<GameDBSymptom ID="SYM_PSYC_DEPRESSED_MOOD">
+		<DescriptionLocID>SYM_PSYC_DEPRESSED_MOOD_DESC</DescriptionLocID>
+		<DiscomfortLevel>Low</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Derealization]]
+	DESC: A sense that the external world is unreal or distorted. Often co-occurs with depersonalization.-->
+	<GameDBSymptom ID="SYM_PSYC_DEREALISAZATION">
+		<DescriptionLocID>SYM_PSYC_DEREALISAZATION_DESC</DescriptionLocID>
+		<DiscomfortLevel>Low</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Dissociation]]
+	DESC: A disruption in the normal integration of consciousness, memory, or identity. It can range from mild spacing out to severe dissociative disorders like dissociative identity disorder (DID).-->
+	<GameDBSymptom ID="SYM_PSYC_DISSOCIATION">
+		<DescriptionLocID>SYM_PSYC_DISSOCIATION_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Dysphoria]]
+	DESC: A state of profound unease, dissatisfaction, or emotional distress. It is often seen in mood disorders like depression or borderline personality disorder.-->
+	<GameDBSymptom ID="SYM_PSYC_DYSPHORIA">
+		<DescriptionLocID>SYM_DYSPHORIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Dysthymia]]
+	DESC:  A chronic form of depression with milder but long-lasting symptoms, now classified as persistent depressive disorder.-->
+	<GameDBSymptom ID="SYM_PSYC_DYSHYMIA">
+		<DescriptionLocID>SYM_PSYC_DYSHYMIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>Low</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Echolalia]]
+	DESC: The involuntary repetition of words or phrases spoken by others. It is commonly seen in autism spectrum disorder, schizophrenia, or Tourette’s syndrome.-->
+	<GameDBSymptom ID="SYM_PSYC_ECHOLALIA">
+		<DescriptionLocID>SYM_GENDER_ECHOLALIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
 		<Hazard>Medium</Hazard>

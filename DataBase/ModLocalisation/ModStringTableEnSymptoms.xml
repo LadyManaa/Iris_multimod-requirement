@@ -217,6 +217,132 @@
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DELULU</LocID>
+				<Text>Delusions</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_DELULU_DESC</LocID>
+				<Text>Fixed, false beliefs that are resistant to reasoning or contradictory evidence. Common types include paranoid delusions (e.g., believing one is being persecuted) or grandiose delusions (e.g., believing one has special powers).</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DEPERSONALIZATION</LocID>
+				<Text>Depersonalization</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DEPERSONALIZATION_DESC</LocID>
+				<Text>A feeling of detachment from oneself, as if observing one’s actions from outside the body. It is a symptom of depersonalization-derealization disorder.</Text>
+			</GameDBLocalizedString>	
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DEPRESSED_MOOD</LocID>
+				<Text>Depressed Mood</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DEPRESSED_MOOD_DESC</LocID>
+				<Text>Persistent feelings of sadness, hopelessness, or emptiness, a core symptom of major depressive disorder.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DEREALISAZATION</LocID>
+				<Text>Derealization</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DEREALISAZATION_DESC</LocID>
+				<Text>A sense that the external world is unreal or distorted. Often co-occurs with depersonalization.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DISSOCIATION</LocID>
+				<Text>Dissociation</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DISSOCIATION_DESC</LocID>
+				<Text>A disruption in the normal integration of consciousness, memory, or identity. It can range from mild spacing out to severe dissociative disorders like dissociative identity disorder (DID).</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DYSPHORIA</LocID>
+				<Text>Dysphoria</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_DYSPHORIA_DESC</LocID>
+				<Text>A state of profound unease, dissatisfaction, or emotional distress. It is often seen in mood disorders like depression or borderline personality disorder.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DYSHYMIA</LocID>
+				<Text>Dysthymia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_DYSHYMIA_DESC</LocID>
+				<Text>A chronic form of depression with milder but long-lasting symptoms, now classified as persistent depressive disorder.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_ECHOLALIA</LocID>
+				<Text>Echolalia</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_GENDER_ECHOLALIA_DESC</LocID>
+				<Text>The involuntary repetition of words or phrases spoken by others. It is commonly seen in autism spectrum disorder, schizophrenia, or Tourette’s syndrome.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
 				<LocID>SYM_PSYC_SYMPTOM</LocID>
 				<Text>NAME</Text>
 			</GameDBLocalizedString>
