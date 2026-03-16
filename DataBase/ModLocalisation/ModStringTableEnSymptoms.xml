@@ -145,12 +145,12 @@
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM</LocID>
-				<Text>NAME</Text>
+				<LocID>SYM_PSYC_AVOLITION</LocID>
+				<Text>Avolition</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
-				<Text>Description</Text>
+				<LocID>SYM_PSYC_AVOLITION_DESC</LocID>
+				<Text>A lack of motivation or inability to initiate and persist in goal-directed activities. It is commonly associated with schizophrenia and severe depression.</Text>
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>

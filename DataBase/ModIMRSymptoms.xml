@@ -288,6 +288,25 @@
 		<IconIndex>2</IconIndex>
 	</GameDBSymptom>
 
+		<!--[[Avolition]]
+	DESC: A lack of motivation or inability to initiate and persist in goal-directed activities. It is commonly associated with schizophrenia and severe depression.-->
+	<GameDBSymptom ID="SYM_PSYC_AVOLITION">
+		<DescriptionLocID>SYM_PSYC_AVOLITION_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>true</PatientComplains>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>2</IconIndex>
+	</GameDBSymptom>
+
 	<!--[[Gender Dysphoria]]
 	DESC: -->
 	<GameDBSymptom ID="SYM_PSYC_GENDER_DYSPHORIA">
