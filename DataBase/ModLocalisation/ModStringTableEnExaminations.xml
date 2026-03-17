@@ -1,0 +1,52 @@
+<Database>
+	<!-- Psychiatry Mod by Iris -->
+	<GameDBStringTable ID="LOC_EN_ADDON_PSYC_EXAMINATIONS">
+
+		<LanguageCode>en</LanguageCode>
+		<LanguageNameLocalized>English</LanguageNameLocalized>
+
+		<Contributors>
+			<Name>Iris</Name>
+		</Contributors>
+
+		<LocalizedStrings>
+
+			<GameDBLocalizedString>
+				<LocID>EXM_PSYCHIATRIC_INTERVIEW</LocID>
+				<Text>Psychiatric Interview</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>EXM_PSYCHIATRIC_INTERVIEW_DESC</LocID>
+				<Text>The psychiatric interview is the primary means of assessment in clinical psychiatry. The interview includes an important component, the mental status examination.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM</LocID>
+				<Text>NAME</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_SYMPTOM_DESC</LocID>
+				<Text>Description</Text>
+			</GameDBLocalizedString>
+
+		</LocalizedStrings>
+	</GameDBStringTable>
+</Database>

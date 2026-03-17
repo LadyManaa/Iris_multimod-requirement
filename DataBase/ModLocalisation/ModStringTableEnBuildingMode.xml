@@ -1,0 +1,17 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_GYNECOLOGIE_BUILDING_MODE">
+
+        <LanguageCode>en</LanguageCode>
+		<LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Iris</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+		<GameDBLocalizedString>	<LocID>ROOM_TYPE_EPI_SLEEP_LAB</LocID>							<Text>Sleep Lab</Text>	</GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

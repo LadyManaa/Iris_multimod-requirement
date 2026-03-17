@@ -1,0 +1,201 @@
+<Database>
+
+    <!-- ######################### -->
+    <!-- Psychiatry Mod by Iris -->
+
+
+    <GameDBExamination ID="EXM_PSYCHIATRIC_INTERVIEW">
+        <AbbreviationLocID>EXM_PSYCHIATRIC_INTERVIEW_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>psyc_office</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptExaminationGeneral</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>false</Biohazard>
+            <Priority>40</Priority>
+        </Procedure>
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>0</Cost>
+        <IconIndex>1711</IconIndex>
+        <DurationHours>1</DurationHours>
+    </GameDBExamination>
+
+    <GameDBExamination ID="EXM_BEHAVIORAL_OBSERVATION">
+        <AbbreviationLocID>EXM_OBSERVATION_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredRoomTypeList>
+                <RequiredRoomTypeRef>ROOM_TYPE_INPATIENT_BEDROOM</RequiredRoomTypeRef>
+                <RequiredRoomTypeRef>ROOM_TYPE_INTENSIVE_CARE_UNIT</RequiredRoomTypeRef>
+            </RequiredRoomTypeList>
+            <ProcedureScript>ProcedureScriptExaminationTemplate</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>move_start_upper_limb</AnimationNameIn>
+                <AnimationNameOut>move_end_upper_limb</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <HospitalizationLevel>NORMAL</HospitalizationLevel>
+            <Priority>30</Priority>
+        </Procedure>
+        <ExaminationType>OBSERVATION</ExaminationType>
+        <Cost>0</Cost>
+        <IconIndex>1633</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBExamination>
+
+    <GameDBExamination ID="EXM_COGNITIVE_ASSESSMENT">
+        <AbbreviationLocID>EXM_COGNITIVE_ASSESSMENT_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+                <Tag>psyc_office</Tag>
+                <Tag>thep_office</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptExaminationGeneral</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>false</Biohazard>
+            <Priority>40</Priority>
+        </Procedure>
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>0</Cost>
+        <IconIndex>1711</IconIndex>
+        <DurationHours>1</DurationHours>
+    </GameDBExamination>
+
+    <GameDBExamination ID="EXM_TOXICOLOGY_SCREEN">
+        <AbbreviationLocID>EXM_TOXICOLOGY_SCREEN_DESC</AbbreviationLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>sit_exam</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>doc_equipment</Tag>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>examinations_basic_equipment</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptExaminationGeneralEquipment</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_blood_sampling_in</AnimationNameIn>
+                <AnimationNameIdle>stand_blood_sampling_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_blood_sampling_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <AnimationSetupLying>
+                <AnimationNameIn>stand_examination_in</AnimationNameIn>
+                <AnimationNameIdle>stand_examination_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_examination_out</AnimationNameOut>
+            </AnimationSetupLying>
+            <DressLevel>FULL</DressLevel>
+            <Biohazard>true</Biohazard>
+            <Priority>22</Priority>
+        </Procedure>
+        <ExaminationType>EXAMINATION</ExaminationType>
+        <Cost>50</Cost>
+        <IconIndex>1663</IconIndex>
+        <DurationHours>0</DurationHours>
+        <LabTestingExaminationRef>EXM_TOXICOLOGY_SCREEN_TESTING</LabTestingExaminationRef>
+    </GameDBExamination>
+
+    <GameDBExamination ID="EXM_TOXICOLOGY_SCREEN_TESTING">
+        <AbbreviationLocID>EXM_TOXICOLOGY_SCREENTESTING_DESC</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_IGNORE_DOCTOR</StaffSelectionRules>
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredSkillsToPrescribe>
+            <RequiredStatLabQualificationRef>SKILL_LAB_SPECIALIST_QUALIF_SCIENCE_EDUCATION</RequiredStatLabQualificationRef>
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>stat_lab_exam</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>true</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>hematoanalyzer</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>false</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>biohazard_trash</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>true</BlocksSpecialist>
+                </RequiredEquipment>
+                <RequiredEquipment>
+                    <Tag>clean_hands</Tag>
+                    <DurationHours>0.1</DurationHours>
+                    <BlocksSpecialist>true</BlocksSpecialist>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+            <RequiredRoomTags>
+                <Tag>hematology_lab</Tag>
+            </RequiredRoomTags>
+            <Biohazard>true</Biohazard>
+            <Priority>21</Priority>
+            <FallbackLabDepartmentRef>DPT_LAB</FallbackLabDepartmentRef>
+        </Procedure>
+        <Cost>50</Cost>
+        <IconIndex>1641</IconIndex>
+        <DurationHours>2</DurationHours>
+    </GameDBExamination>
+
+</Database>

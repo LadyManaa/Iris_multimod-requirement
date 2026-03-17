@@ -34,9 +34,11 @@
 	TAGS: !!!Dummy Symptom pls ignore!!!
 	DESC: This Symptom only exist for the mod to work the way I want. -->
 
-	<!--PLACEHOLDER-->
-	<GameDBSymptom ID="SYM_PSYC_PLACE">
-		<DescriptionLocID>SYM_PSYC_PLACE_DESC</DescriptionLocID>
+
+
+	<!--FULL OF FUCKING DRUGS-->
+	<GameDBSymptom ID="SYM_FULLONFUCKINGDRUGS">
+		<DescriptionLocID>SYM_FULLONFUCKINGDRUGS_DESC</DescriptionLocID>
 		<DiscomfortLevel>None</DiscomfortLevel>
 		<PatientComplains>true</PatientComplains>
 		<Hazard>Low</Hazard>
@@ -46,7 +48,7 @@
 			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_ATP_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 		<ShameLevel>0</ShameLevel>
 		<IconIndex>3</IconIndex>
@@ -56,8 +58,8 @@
 	<!--[[Abulia]]  by Iris
 	DESC: Abulia is a pathological lack of volition and weakness of will. It is also characterised by an inability to make decisions. -->
 
-	<GameDBSymptom ID="SYM_PSYC_ABUILA">
-		<DescriptionLocID>SYM_ABUILA_DESC</DescriptionLocID>
+	<GameDBSymptom ID="SYM_PSYC_ABULIA">
+		<DescriptionLocID>SYM_PSYC_ABULIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
 		<IsMainSymptom>true</IsMainSymptom>
@@ -67,7 +69,7 @@
 			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
@@ -79,8 +81,8 @@
 
 	<GameDBSymptom ID="SYM_AFFECTIVE_INSTABILITY">
 		<DescriptionLocID>SYM_AFFECTIVE_INSTABILITY_DESC</DescriptionLocID>
-		<DiscomfortLevel>Medium</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
 		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
@@ -88,7 +90,7 @@
 			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
@@ -102,17 +104,18 @@
 		<DescriptionLocID>SYM_AGITATION_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Akathisia]] by Iris
@@ -121,37 +124,39 @@
 	<GameDBSymptom ID="SYM_PSYC_AKATHISIA">
 		<DescriptionLocID>SYM_AKATHISIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Alexithymia]]
 	DESC: Difficulty in identifying and describing one’s own emotions. It is often seen in individuals with autism spectrum disorder or PTSD.-->
 	<GameDBSymptom ID="SYM_PSYC_ALEXITHYMIA">
 		<DescriptionLocID>SYM_ALEXITHYMIA_DESC</DescriptionLocID>
-		<DiscomfortLevel>None</DiscomfortLevel>
+		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Alogia]]
@@ -159,18 +164,19 @@
 	<GameDBSymptom ID="SYM_PSYC_ALOGIA">
 		<DescriptionLocID>SYM_ALOGIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>False</PatientComplains>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Amnesia]]
@@ -178,18 +184,19 @@
 	<GameDBSymptom ID="SYM_PSYC_AMNESIA">
 		<DescriptionLocID>SYM_AMNESIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
-		<Hazard>Medium</Hazard>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_COGNITIVE_ASSESSMENT</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Anhedonia]]
@@ -197,18 +204,19 @@
 	<GameDBSymptom ID="SYM_PSYC_ANHEDONIA">
 		<DescriptionLocID>SYM_PSYC_ANHEDONIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>Medium</DiscomfortLevel>
-		<PatientComplains>True</PatientComplains>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Anxiety]]
@@ -217,36 +225,38 @@
 		<DescriptionLocID>SYM_ANXIETY_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Apathy]]
 	DESC: A lack of motivation, interest, or emotional responsiveness. It is often seen in depression, schizophrenia, or neurodegenerative disorders like Alzheimer’s disease. -->
 	<GameDBSymptom ID="SYM_PSYC_APATHY">
 		<DescriptionLocID>SYM_APATHY_DESC</DescriptionLocID>
-		<DiscomfortLevel>Medium</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Auditory Hallucinations]]
@@ -254,18 +264,19 @@
 	<GameDBSymptom ID="SYM_PSYC_AUDITORY_HALLUCINATIONS">
 		<DescriptionLocID>SYM_AUDITORY_HALLUCINATIONS_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 
@@ -273,76 +284,80 @@
 	DESC:  Deliberately avoiding situations, places, or people that trigger anxiety or distress. This is a key feature of anxiety disorders, particularly phobias and PTSD.-->
 	<GameDBSymptom ID="SYM_PSYC_AVOIDANCE_BEHAVOIR">
 		<DescriptionLocID>SYM_AVOIDANCE_BEHAVOIR_DESC</DescriptionLocID>
-		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Avolition]]
 	DESC: A lack of motivation or inability to initiate and persist in goal-directed activities. It is commonly associated with schizophrenia and severe depression.-->
 	<GameDBSymptom ID="SYM_PSYC_AVOLITION">
 		<DescriptionLocID>SYM_PSYC_AVOLITION_DESC</DescriptionLocID>
-		<DiscomfortLevel>Medium</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Blunted Affect]]
 	DESC: A significant reduction in the intensity of emotional expression. Individuals may appear emotionally flat or unresponsive, often seen in schizophrenia or severe depression. -->
 	<GameDBSymptom ID="SYM_PSYC_BLUNTED_AFFECT">
 		<DescriptionLocID>SYM_PSYC_BLUNTED_AFFECT_DESC</DescriptionLocID>
-		<DiscomfortLevel>Medium</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Bruxism]]
 	DESC: Grinding or clenching of teeth, often during sleep. It can be associated with anxiety, stress, or certain medications.-->
 	<GameDBSymptom ID="SYM_PSYC_BRUXISM">
 		<DescriptionLocID>SYM_PSYC_BRUXISM_DESC</DescriptionLocID>
-		<DiscomfortLevel>Low</DiscomfortLevel>
+		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Bulimia Nervosa]]
@@ -351,17 +366,18 @@
 		<DescriptionLocID>SYM_BULIMIA_NERVOSA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
-		<Hazard>Medium</Hazard>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Burnout]]
@@ -369,18 +385,19 @@
 	<GameDBSymptom ID="SYM_PSYC_BURNOUT">
 		<DescriptionLocID>SYM_BURNOUT_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Catatonia]]
@@ -389,36 +406,38 @@
 		<DescriptionLocID>SYM_CATATONIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
-		<Hazard>Medium</Hazard>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Cognitive Impairment]]
 	DESC: Difficulties with memory, attention, or problem-solving. It can occur in conditions like dementia, traumatic brain injury, or depression.-->
 	<GameDBSymptom ID="SYM_PSYC_COGNITIVE_IMPAIRMENT">
 		<DescriptionLocID>SYM_PSYC_COGNITIVE_IMPAIRMENT_DESC</DescriptionLocID>
-		<DiscomfortLevel>Low</DiscomfortLevel>
+		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_COGNITIVE_ASSESSMENT</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Cyclothymia]]
@@ -427,36 +446,38 @@
 		<DescriptionLocID>SYM_PSYC_CYCLOTHYMIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
-		<Hazard>Medium</Hazard>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Delusions]]
 	DESC: Fixed, false beliefs that are resistant to reasoning or contradictory evidence. Common types include paranoid delusions (e.g., believing one is being persecuted) or grandiose delusions (e.g., believing one has special powers). -->
 	<GameDBSymptom ID="SYM_PSYC_DELULU">
 		<DescriptionLocID>SYM_DELULU_DESC</DescriptionLocID>
-		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
-		<Hazard>Medium</Hazard>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Depersonalization]]
@@ -464,75 +485,79 @@
 	<GameDBSymptom ID="SYM_PSYC_DEPERSONALIZATION">
 		<DescriptionLocID>SYM_PSYC_DEPERSONALIZATION_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Depressed Mood]]
 	DESC: Persistent feelings of sadness, hopelessness, or emptiness, a core symptom of major depressive disorder.-->
 	<GameDBSymptom ID="SYM_PSYC_DEPRESSED_MOOD">
 		<DescriptionLocID>SYM_PSYC_DEPRESSED_MOOD_DESC</DescriptionLocID>
-		<DiscomfortLevel>Low</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Derealization]]
 	DESC: A sense that the external world is unreal or distorted. Often co-occurs with depersonalization.-->
 	<GameDBSymptom ID="SYM_PSYC_DEREALISAZATION">
 		<DescriptionLocID>SYM_PSYC_DEREALISAZATION_DESC</DescriptionLocID>
-		<DiscomfortLevel>Low</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
-		<Hazard>low</Hazard>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 	<!--[[Dissociation]]
 	DESC: A disruption in the normal integration of consciousness, memory, or identity. It can range from mild spacing out to severe dissociative disorders like dissociative identity disorder (DID).-->
 	<GameDBSymptom ID="SYM_PSYC_DISSOCIATION">
 		<DescriptionLocID>SYM_PSYC_DISSOCIATION_DESC</DescriptionLocID>
-		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
-		<Hazard>Medium</Hazard>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 		<!--[[Dysphoria]]
@@ -540,90 +565,95 @@
 	<GameDBSymptom ID="SYM_PSYC_DYSPHORIA">
 		<DescriptionLocID>SYM_DYSPHORIA_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
+		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
 		<!--[[Dysthymia]]
 	DESC:  A chronic form of depression with milder but long-lasting symptoms, now classified as persistent depressive disorder.-->
 	<GameDBSymptom ID="SYM_PSYC_DYSHYMIA">
 		<DescriptionLocID>SYM_PSYC_DYSHYMIA_DESC</DescriptionLocID>
-		<DiscomfortLevel>Low</DiscomfortLevel>
-		<PatientComplains>true</PatientComplains>
-		<Hazard>Low</Hazard>
-		<PatientMobility>MOBILE</PatientMobility>
-		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-		</Examinations>
-		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
-		</Treatments>
-
-		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
-	</GameDBSymptom>
-
-		<!--[[Echolalia]]
-	DESC: The involuntary repetition of words or phrases spoken by others. It is commonly seen in autism spectrum disorder, schizophrenia, or Tourette’s syndrome.-->
-	<GameDBSymptom ID="SYM_PSYC_ECHOLALIA">
-		<DescriptionLocID>SYM_GENDER_ECHOLALIA_DESC</DescriptionLocID>
-		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>false</PatientComplains>
-		<Hazard>Medium</Hazard>
-		<PatientMobility>MOBILE</PatientMobility>
-		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-		</Examinations>
-		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
-		</Treatments>
-
-		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
-	</GameDBSymptom>
-
-	<!--[[Gender Dysphoria]]
-	DESC: -->
-	<GameDBSymptom ID="SYM_PSYC_GENDER_DYSPHORIA">
-		<DescriptionLocID>SYM_GENDER_DYSPHORIA_DESC</DescriptionLocID>
-		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>false</PatientComplains>
-		<Hazard>Medium</Hazard>
-		<PatientMobility>MOBILE</PatientMobility>
-		<Examinations>
-			<ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-		</Examinations>
-		<Treatments>
-			<TreatmentRef>TRT_IRM_GAHT_DRUGS</TreatmentRef>
-		</Treatments>
-
-		<ShameLevel>0</ShameLevel>
-		<IconIndex>2</IconIndex>
-	</GameDBSymptom>
-
-	<!--[[Flat Affect]]-->
-	<GameDBSymptom ID="SYM_PSYC_FLAT_AFFECT">
-		<DescriptionLocID>SYM_FLAT_AFFECT_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
 		<IsMainSymptom>true</IsMainSymptom>
-		<Hazard>Medium</Hazard>
+		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
 			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
 		</Examinations>
 		<Treatments>
-			<TreatmentRef>TRT_IRM_MOOD_STABILIZERS_DRUGS</TreatmentRef>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Echolalia]]
+	DESC: The involuntary repetition of words or phrases spoken by others. It is commonly seen in autism spectrum disorder, schizophrenia, or Tourette’s syndrome.-->
+	<GameDBSymptom ID="SYM_PSYC_ECHOLALIA">
+		<DescriptionLocID>EXM_BEHAVIORAL_OBSERVATION</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Gender Dysphoria]]
+	DESC: -->
+	<GameDBSymptom ID="SYM_PSYC_GENDER_DYSPHORIA">
+		<DescriptionLocID>SYM_PSYC_GENDER_DYSPHORIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+
+	<!--[[Flat Affect]]-->
+	<GameDBSymptom ID="SYM_PSYC_FLAT_AFFECT">
+		<DescriptionLocID>SYM_PSYC_FLAT_AFFECT_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
 		</Treatments>
 
 		<ShameLevel>0</ShameLevel>

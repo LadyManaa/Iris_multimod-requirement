@@ -37,11 +37,11 @@
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_ABUILA</LocID>
+				<LocID>SYM_PSYC_ABULIA</LocID>
 				<Text>Abulia</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_ABUILA_DESC</LocID>
+				<LocID>SYM_PSYC_ABULIA</LocID>
 				<Text>Abulia is a pathological lack of volition and weakness of will. It is also characterised by an inability to make decisions.</Text>
 			</GameDBLocalizedString>
 
@@ -284,7 +284,7 @@
 				<Text>Echolalia</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_GENDER_ECHOLALIA_DESC</LocID>
+				<LocID>SYM_PSYC_ECHOLALIA_DESC</LocID>
 				<Text>The involuntary repetition of words or phrases spoken by others. It is commonly seen in autism spectrum disorder, schizophrenia, or Tourette’s syndrome.</Text>
 			</GameDBLocalizedString>
 
