@@ -1,6 +1,6 @@
 <Database>
 	<!-- Psychiatry Mod by Iris -->
-	<GameDBStringTable ID="LOC_EN_ADDON_PSYC_EXAMINATIONS">
+	<GameDBStringTable ID="LOC_EN_ADDON_IMR_EXAMINATIONS">
 
 		<LanguageCode>en</LanguageCode>
 		<LanguageNameLocalized>English</LanguageNameLocalized>
