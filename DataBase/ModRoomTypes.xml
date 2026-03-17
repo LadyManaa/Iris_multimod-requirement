@@ -54,7 +54,7 @@
             <Tag>stool</Tag>
         </BuildingModeFilters>
         <Tags>
-            <Tag>epi_sleep_lab</Tag>
+            <Tag>sleep_lab</Tag>
         </Tags>
         <MinWidth>4</MinWidth>
         <MinHeight>4</MinHeight>

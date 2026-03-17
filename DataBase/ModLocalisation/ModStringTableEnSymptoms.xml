@@ -199,11 +199,20 @@
 			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_COGNITIVE_IMPAIRMENT_FUNC</LocID>
+				<Text>Functional Cognitive Impairment</Text>
+			</GameDBLocalizedString>
+			<GameDBLocalizedString>
+				<LocID>SYM_PSYC_COGNITIVE_IMPAIRMENT_FUNC_DESC</LocID>
+				<Text>Difficulties with memory, attention, or problem-solving. It can occur in conditions like dementia, traumatic brain injury, or depression.</Text>
+			</GameDBLocalizedString>
+
+			<GameDBLocalizedString>
 				<LocID>SYM_PSYC_COGNITIVE_IMPAIRMENT</LocID>
 				<Text>Cognitive Impairment</Text>
 			</GameDBLocalizedString>
 			<GameDBLocalizedString>
-				<LocID>SYM_PSYC_COGNITIVE_IMPAIRMENT_DESC</LocID>
+				<LocID>SYM_PSYC_COGNITIVE_IMPAIRMENTC_DESC</LocID>
 				<Text>Difficulties with memory, attention, or problem-solving. It can occur in conditions like dementia, traumatic brain injury, or depression.</Text>
 			</GameDBLocalizedString>
 
@@ -232,7 +241,7 @@
 			<GameDBLocalizedString>
 				<LocID>SYM_PSYC_DEPERSONALIZATION_DESC</LocID>
 				<Text>A feeling of detachment from oneself, as if observing one’s actions from outside the body. It is a symptom of depersonalization-derealization disorder.</Text>
-			</GameDBLocalizedString>	
+			</GameDBLocalizedString>
 
 			<GameDBLocalizedString>
 				<LocID>SYM_PSYC_DEPRESSED_MOOD</LocID>

@@ -45,7 +45,7 @@
 		<PatientMobility>MOBILE</PatientMobility>
 		<IsMainSymptom>true</IsMainSymptom>
 		<Examinations>
-			<ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+			<ExaminationRef>EXM_TOXICOLOGY_SCREEN</ExaminationRef>
 		</Examinations>
 		<Treatments>
 			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
@@ -130,6 +130,7 @@
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
 			<ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
+			<ExaminationRef>EXM_EEG</ExaminationRef>
 		</Examinations>
 		<Treatments>
 			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
@@ -351,6 +352,7 @@
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
 			<ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
+			<ExaminationRef>EXM_SLEEP_STUDY</ExaminationRef>
 		</Examinations>
 		<Treatments>
 			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
@@ -411,6 +413,7 @@
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
 			<ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
+			<ExaminationRef>EXM_EEG</ExaminationRef>
 		</Examinations>
 		<Treatments>
 			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
@@ -420,10 +423,10 @@
 		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
-	<!--[[Cognitive Impairment]]
+	<!--[[Functional Cognitive Impairment]]
 	DESC: Difficulties with memory, attention, or problem-solving. It can occur in conditions like dementia, traumatic brain injury, or depression.-->
-	<GameDBSymptom ID="SYM_PSYC_COGNITIVE_IMPAIRMENT">
-		<DescriptionLocID>SYM_PSYC_COGNITIVE_IMPAIRMENT_DESC</DescriptionLocID>
+	<GameDBSymptom ID="SYM_PSYC_COGNITIVE_IMPAIRMENT_FUNC">
+		<DescriptionLocID>SYM_PSYC_COGNITIVE_IMPAIRMENT_FUNC_DESC</DescriptionLocID>
 		<DiscomfortLevel>High</DiscomfortLevel>
 		<PatientComplains>false</PatientComplains>
 		<IsMainSymptom>true</IsMainSymptom>
@@ -431,6 +434,27 @@
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
 			<ExaminationRef>EXM_COGNITIVE_ASSESSMENT</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Functional Cognitive Impairment]]
+	DESC: Difficulties with memory, attention, or problem-solving. It can occur in conditions like dementia, traumatic brain injury, or depression.-->
+	<GameDBSymptom ID="SYM_PSYC_COGNITIVE_IMPAIRMENT">
+		<DescriptionLocID>SYM_PSYC_COGNITIVE_IMPAIRMENTC_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_COGNITIVE_ASSESSMENT</ExaminationRef>
+			<ExaminationRef>EXM_MRI</ExaminationRef>
 		</Examinations>
 		<Treatments>
 			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
@@ -550,7 +574,8 @@
 		<Hazard>Low</Hazard>
 		<PatientMobility>MOBILE</PatientMobility>
 		<Examinations>
-			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+			<ExaminationRef>EXM_EEG</ExaminationRef>
+			<ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
 		</Examinations>
 		<Treatments>
 			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
