@@ -645,6 +645,459 @@
 		<IconIndex>1</IconIndex>
 	</GameDBSymptom>
 
+		<!--[[Echopraxia]]
+	DESC: The involuntary imitation of another person’s movements. It is often associated with schizophrenia or neurological conditions.-->
+	<GameDBSymptom ID="SYM_PSYC_ECHOPRAXIA">
+		<DescriptionLocID>SYM_PSYC_ECHOPRAXIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>Low</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Emotional Lability]]
+	DESC: Rapid and exaggerated changes in mood, often with inappropriate emotional responses. It can occur in conditions like borderline personality disorder, traumatic brain injury, or bipolar disorder. -->
+	<GameDBSymptom ID="SYM_PSYC_GENDER_DYSPHORIA">
+		<DescriptionLocID>SYM_PSYC_GENDER_DYSPHORIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Executive Dysfunction]]
+	DESC: Difficulties with planning, organizing, and completing tasks. It is often seen in ADHD, schizophrenia, or traumatic brain injury.-->
+	<GameDBSymptom ID="SYM_PSYC_EXC_DYS">
+		<DescriptionLocID>SYM_PSYC_EXC_DYS_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Excessive Worry]]
+	DESC: Persistent and uncontrollable anxiety about everyday situations. It is a hallmark symptom of generalized anxiety disorder (GAD).-->
+	<GameDBSymptom ID="SYM_PSYC_EC_WORRY">
+		<DescriptionLocID>SYM_PSYC_EC_WORRY_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Emotional Numbing]]
+	DESC: A reduced ability or inability to experience emotions, often seen in PTSD or severe depression.-->
+	<GameDBSymptom ID="SYM_PSYC_EMOT_NUMBING">
+		<DescriptionLocID>SYM_PSYC_EMOT_NUMBING_DESC</DescriptionLocID>
+		<DiscomfortLevel>Low</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Eating Disorders]]
+	DESC: Conditions like anorexia nervosa, bulimia nervosa, or binge-eating disorder, characterized by abnormal eating behaviors and distorted body image.-->
+	<GameDBSymptom ID="SYM_PSYC_EATING_DISORDER">
+		<DescriptionLocID>SYM_PSYC_EATING_DISORDER_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Flat Affect]]-->
+	<GameDBSymptom ID="SYM_PSYC_FLAT_AFFECT">
+		<DescriptionLocID>SYM_PSYC_FLAT_AFFECT_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Flight of Ideas]]
+	DESC: Rapid, continuous speech with frequent shifts in topic, often seen in manic episodes of bipolar disorder.-->
+	<GameDBSymptom ID="SYM_PSYC_FLIGHT_OF_IDEAS">
+		<DescriptionLocID>SYM_PSYC_FLIGHT_OF_IDEAS_DESC</DescriptionLocID>
+		<DiscomfortLevel>Low</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_BEHAVIORAL_OBSERVATION</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Flashbacks]]
+	DESC: Vivid, intrusive memories of a traumatic event, often accompanied by intense emotions. They are a key symptom of PTSD.-->
+	<GameDBSymptom ID="SYM_PSYC_FLASHBACKS">
+		<DescriptionLocID>SYM_PSYC_FLASHBACKS_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>HIGH</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Fearfulness]]
+	DESC: An intense and persistent fear of specific objects, situations, or activities, often seen in phobias or PTSD.-->
+	<GameDBSymptom ID="SYM_PSYC_FEARFULNESS">
+		<DescriptionLocID>SYM_PSYC_FEARFULNESS_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Fatigue]]
+	DESC: Persistent feelings of tiredness or lack of energy, often associated with depression, anxiety, or chronic stress.-->
+	<GameDBSymptom ID="SYM_PSYC_FATIQUE">
+		<DescriptionLocID>SYM_PSYC_FATIQUE_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+	<!--[[Formal Thought Disorder]]
+	DESC: Disorganized thinking patterns that affect speech and communication. It includes symptoms like tangentiality, derailment, or incoherence, often seen in schizophrenia.-->
+	<GameDBSymptom ID="SYM_PSYC_FORMAL_THOUGHT_DISORDER">
+		<DescriptionLocID>SYM_PSYC_FORMAL_THOUGHT_DISORDER_DESC</DescriptionLocID>
+		<DiscomfortLevel>HIGH</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Fugue State]]
+	DESC: A rare dissociative state characterized by sudden, unplanned travel and an inability to recall one’s identity or past. It is associated with dissociative disorders.-->
+	<GameDBSymptom ID="SYM_PSYC_FUGUE_STATE">
+		<DescriptionLocID>SYM_PSYC_FUGUE_STATE_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+
+	<!--[[Grandiosity]]
+	DESC: An inflated sense of self-importance or abilities, often seen in manic episodes of bipolar disorder or narcissistic personality disorder.-->
+	<GameDBSymptom ID="SYM_PSYC_GRANDIOSITY">
+		<DescriptionLocID>SYM_PSYC_GRANDIOSITY_DESC</DescriptionLocID>
+		<DiscomfortLevel>None</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_PSYCHIATRIC_INTERVIEW</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Guilt]]
+	DESC: Excessive feelings of responsibility or remorse for real or perceived wrongdoings. It is a common symptom of depression.-->
+	<GameDBSymptom ID="SYM_PSYC_GUILD">
+		<DescriptionLocID>SYM_PSYC_GUILD_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Grief]]
+	DESC: Intense sorrow or emotional pain following a loss. While normal, prolonged or severe grief may develop into complicated grief or major depressive disorder.-->
+	<GameDBSymptom ID="SYM_PSYC_GRIEF">
+		<DescriptionLocID>SYM_PSYC_GRIEF_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Guardedness]]
+	DESC: A defensive or suspicious attitude, often seen in individuals with paranoia or psychotic disorders.-->
+	<GameDBSymptom ID="SYM_PSYC_GUARDEDNESS">
+		<DescriptionLocID>SYM_PSYC_GUARDEDNESS_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Gustatory Hallucinations]]
+	DESC: Perceiving tastes that are not present, often associated with neurological conditions or psychotic disorders.-->
+	<GameDBSymptom ID="SYM_PSYC_GUSTATOY_HALLUCINATIONS">
+		<DescriptionLocID>SYM_PSYC_GUSTATOY_HALLUCINATIONS_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+
+	<!--[[Gait Disturbances]]
+	DESC: Abnormalities in walking patterns, which can be psychogenic (e.g., conversion disorder) or neurological in origin.-->
+	<GameDBSymptom ID="SYM_PSYC_GAIT_DISTURBANCES">
+		<DescriptionLocID>SYM_PSYC_GAIT_DISTURBANCES_DESC</DescriptionLocID>
+		<DiscomfortLevel>Medium</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+		<!--[[Globus Sensation]]
+	DESC: A feeling of a lump in the throat, often associated with anxiety or somatic symptom disorder.-->
+	<GameDBSymptom ID="SYM_PSYC_GLOBUS_SENSATION">
+		<DescriptionLocID>SYM_PSYC_GLOBUS_SENSATION_DESC</DescriptionLocID>
+		<DiscomfortLevel>Low</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Gender Dysphoria]]
+	DESC: Significant distress or discomfort due to a mismatch between one’s gender identity and assigned sex at birth. It is a key feature of gender dysphoria.-->
+	<GameDBSymptom ID="SYM_PSYC_GENDER_DYSPHORIA">
+		<DescriptionLocID>SYM_PSYC_GENDER_DYSPHORIA_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Hallucinations]]
+	DESC: Perceiving sensations (e.g., hearing voices, seeing things) that are not real. They are common in psychotic disorders like schizophrenia, substance-induced psychosis, or severe mood disorders.-->
+	<GameDBSymptom ID="SYM_PSYC_Hallucinations">
+		<DescriptionLocID>SYM_PSYC_Hallucinations_DESC</DescriptionLocID>
+		<DiscomfortLevel>High</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Medium</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
+	<!--[[Hyperactivity]]
+	DESC: Excessive motor activity, often seen in ADHD or manic episodes of bipolar disorder.-->
+	<GameDBSymptom ID="SYM_PSYC_HYPERACTIVITY">
+		<DescriptionLocID>SYM_PSYC_HYPERACTIVITY_DESC</DescriptionLocID>
+		<DiscomfortLevel>Low</DiscomfortLevel>
+		<PatientComplains>false</PatientComplains>
+		<IsMainSymptom>true</IsMainSymptom>
+		<Hazard>Low</Hazard>
+		<PatientMobility>MOBILE</PatientMobility>
+		<Examinations>
+			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+		</Examinations>
+		<Treatments>
+			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
+		</Treatments>
+
+		<ShameLevel>0</ShameLevel>
+		<IconIndex>1</IconIndex>
+	</GameDBSymptom>
+
 	<!--[[Gender Dysphoria]]
 	DESC: -->
 	<GameDBSymptom ID="SYM_PSYC_GENDER_DYSPHORIA">
@@ -666,23 +1119,6 @@
 	</GameDBSymptom>
 
 
-	<!--[[Flat Affect]]-->
-	<GameDBSymptom ID="SYM_PSYC_FLAT_AFFECT">
-		<DescriptionLocID>SYM_PSYC_FLAT_AFFECT_DESC</DescriptionLocID>
-		<DiscomfortLevel>High</DiscomfortLevel>
-		<PatientComplains>false</PatientComplains>
-		<IsMainSymptom>true</IsMainSymptom>
-		<Hazard>Low</Hazard>
-		<PatientMobility>MOBILE</PatientMobility>
-		<Examinations>
-			<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
-		</Examinations>
-		<Treatments>
-			<TreatmentRef>TRT_IRM_CRISIS_INT</TreatmentRef>
-		</Treatments>
 
-		<ShameLevel>0</ShameLevel>
-		<IconIndex>1</IconIndex>
-	</GameDBSymptom>
 
 </Database>
